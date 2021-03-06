@@ -42,7 +42,13 @@ DockerPractice
 
 ```
 　┣ app（laravelを動かすコンテナ）
+　　　・Apache:2
+　　　・PHP:7.4
+　　　・Composer:2.0.9
+     ・Node.js:12
 　┣ db（MySQLを動かすコンテナ）
+　　　・MySQL:5.7
 　┣ phpmyadmin（phpMyAdminを動かすコンテナ）
+　　　・PHPMyAdmin:5
 　┣ mailcatcher（MailCatcherを動かすコンテナ）
 ```
