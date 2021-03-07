@@ -1,4 +1,5 @@
-![laravel学習帳](https://raw.githubusercontent.com/honjou/docker_practice/images/logo.png)
+<p align="center"><img src="https://raw.githubusercontent.com/honjou/docker_practice/images/logo.png"></p>
+
 # Laravelローカル開発環境（Docker）
 
 Docker（docker-compose）でLAMP環境（PHP/Apache/MySQL）を構築し、Laravelの新規プロジェクトをお手軽るに構築できます。
@@ -26,6 +27,12 @@ $ winpty docker-compose exec app bash
 ```
 
 詳細は[こちら](https://laraweb.net/environment/9034/)
+
+### 注意
+
+Laravelプロジェクト名を「laraveltokyo」以外にする場合はドキュメントルートも変更してください。
+
+詳細は[こちら](https://laraweb.net/environment/8652/#3)
 
 ## ディレクトリ構造
 
