@@ -48,7 +48,7 @@ DB_USERNAME=laravel_user
 DB_PASSWORD=laravel_pass
 ```
 
-詳細は[こちら](hhttps://laraweb.net/environment/8751/#4)
+詳細は[こちら](https://laraweb.net/environment/8751/#4)
 
 ## ディレクトリ構造
 
