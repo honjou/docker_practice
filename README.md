@@ -28,11 +28,26 @@ $ winpty docker-compose exec app bash
 
 詳細は[こちら](https://laraweb.net/environment/9034/)
 
-### 注意
+### 注意事項①
 
 Laravelプロジェクト名を「laraveltokyo」以外にする場合はドキュメントルートも変更してください。
 
 詳細は[こちら](https://laraweb.net/environment/8652/#3)
+
+### 注意事項②
+
+Laravelのマイグレーションファイルを実行する前に、.envファイルの内容を以下のように修正してください。
+
+```
+DB_CONNECTION=mysql
+#DB_HOST=127.0.0.1
+DB_HOST=laravel_db
+DB_PORT=3306
+DB_DATABASE=laravel_db
+DB_USERNAME=laravel_user
+DB_PASSWORD=laravel_pass
+```
+詳細は[こちら](hhttps://laraweb.net/environment/8751/#4)
 
 ## ディレクトリ構造
 
