@@ -9,7 +9,7 @@ ADD 000-default.conf /etc/apache2/sites-enabled/
 
 # Composerのインストール
 # RUN：コンテナ内でコマンド実行する
-RUN cd /usr/bin && curl -s http://getcomposer.org/installer | php && ln -s /usr/bin/composer.phar /usr/bin/composer
+RUN cd /usr/bin && curl -s http://getcomposer.org/installer | php -- --version=1.10.15 && ln -s /usr/bin/composer.phar /usr/bin/composer
 
 # Node.jsをインストール
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -

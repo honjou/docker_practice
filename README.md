@@ -4,6 +4,10 @@
 
 Docker（docker-compose）でLAMP環境（PHP/Apache/MySQL）を構築し、Laravelの新規プロジェクトをお手軽るに構築できます。
 
+## 改訂履歴
+
+2022.02.26　composerのバージョンを 1 系に指定
+
 ## 前提条件
 
 お使いのPCにDockerをインストールしておいてください。
