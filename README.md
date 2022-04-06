@@ -7,6 +7,7 @@ Docker（docker-compose）でLAMP環境（PHP/Apache/MySQL）を構築し、Lara
 ## 改訂履歴
 
 2022.04.06　最新バージョンに指定
+
 2022.02.26　composerのバージョンを 1 系に指定
 
 ## 前提条件
