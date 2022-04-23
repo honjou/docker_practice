@@ -24,6 +24,7 @@ unzip \
 vim \
 libpng-dev \
 libpq-dev \
+cron \
 && docker-php-ext-install pdo_mysql
 
 # Laravelで必要になるmodRewriteを有効化する
