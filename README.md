@@ -73,6 +73,7 @@ DockerPractice
 
 ```
 　┣ app（laravelを動かすコンテナ）
+　　　・Debian：11
 　　　・Apache:2
 　　　・PHP:7.4
 　　　・Composer:2.0.9
