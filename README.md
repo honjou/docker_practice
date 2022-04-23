@@ -6,7 +6,7 @@ Docker（docker-compose）でLAMP環境（PHP/Apache/MySQL）を構築し、Lara
 
 ## 改訂履歴
 
-2022.04.23 cronインストール追記
+2022.04.23　cronインストール追記
 
 2022.04.06　composer最新バージョンに指定
 
