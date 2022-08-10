@@ -25,7 +25,7 @@ vim \
 libpng-dev \
 libpq-dev \
 cron \
-&& docker-php-ext-install pdo_mysql
+&& docker-php-ext-install pdo_mysql mysqli
 
 # Laravelで必要になるmodRewriteを有効化する
 RUN mv /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled
